@@ -1,51 +1,31 @@
-#window:
-#  startup_mode: Fullscreen
-
-env:
-  TERM: xterm-256color
-
-  
-
-# Oxide colors
 colors:
   primary:
-    background: '#212121'
-    foreground: '#c0c5ce'
-    bright_foreground: '#f3f4f5'
+    background: '0x2E3440'
+    foreground: '0xD8DEE9'
 
   cursor:
-    text: '#212121'
-    cursor: '#c0c5ce'
+    text: '0x2E3440'
+    cursor: '0xD8DEE9'
 
   normal:
-    black:   '#212121'
-    red:     '#e57373'
-    green:   '#a6bc69'
-    yellow:  '#fac863'
-    blue:    '#0470db'
-    magenta: '#c594c5'
-    cyan:    '#5fb3b3'
-    white:   '#c0c5ce'
+    black: '0x3B4252'
+    red: '0xBF616A'
+    green: '0xA3BE8C'
+    yellow: '0xEBCB8B'
+    blue: '0x81A1C1'
+    magenta: '0xB48EAD'
+    cyan: '0x88C0D0'
+    white: '0xE5E9F0'
 
   bright:
-    black:   '#5c5c5c'
-    red:     '#e57373'
-    green:   '#a6bc69'
-    yellow:  '#fac863'
-    blue:    '#6699cc'
-    magenta: '#c594c5'
-    cyan:    '#5fb3b3'
-    white:   '#f3f4f5'
 
-  indexed_colors: []
-
-dynamic_title: true
-
-cursor:
-  style: Block
-  unfocused_hollow: true
-
-shell:
-  program: wsl
-
- 
+    black: '0x4C566A'
+    red: '0xBF616A'
+    green: '0xA3BE8C'
+    yellow: '0xEBCB8B'
+    blue: '0x81A1C1'
+    magenta: '0xB48EAD'
+    cyan: '0x8FBCBB'
+    white: '0xECEFF4'
+debug:
+  log_level: Debug
